@@ -79,7 +79,7 @@ jobs:
     needs: [build]
     env:
       REGISTRY: ghcr.io
-      IMAGE_NAME: rameshwara/devsecops-demo
+      IMAGE_NAME: rameshwara9640/devsecops-demo
     outputs:
       image_tag: ${{ steps.set_output.outputs.image_tag }}
     steps:
